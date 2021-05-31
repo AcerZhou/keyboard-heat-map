@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+.Title {
+    width: 100%;
+    height: 20%;
+}
+
+.Input {
+    width: 80%;
+    height: 10em;
+    padding: auto;
+}
+
+.InputTextArea {
+    width: 100%;
+    height: 100%;
+}
+
+.Display {
+    max-height: 50%;
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.LineChart {
+    width: 40%;
+    height: 100%;
+    padding: 0px 20px;
+}
+
+.Keyboard {
+    width: 60%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.KeyboardLine {
+    display: flex;
+    flex-direction: row;
+}
+
+.Key {
+    width: 70px;
+    height: 70px;
+    border: 1px solid white;
+    background: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
