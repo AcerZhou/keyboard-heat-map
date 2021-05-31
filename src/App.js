@@ -1,9 +1,8 @@
 import './App.css';
 import { Bar } from 'react-chartjs-2';
-import {useState, useEffect} from 'react';
+import {useState} from 'react';
 
 function App() {
-    const allChars = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'space', 'shift']
     const keyboardChars = [
         ['`/~', '1/!', '2/@', '3/#', '4/$', '5/%', '6/^', '7/&', '8/*', '9/(', '0/)', '-/_', '+/='],
         ['tab', 'q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', '[/{', ']/}', '\\|'],
